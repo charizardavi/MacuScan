@@ -1,0 +1,43 @@
+<ion-header [translucent]="true">
+  <!-- <ion-toolbar> -->
+    
+  <!-- </ion-toolbar> -->
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card style="background-color: #254579;">
+    <ion-card-content>
+      <div style="height: 10%; background-color: rgba(208, 236, 245, 0);"> 
+        <ion-title style="text-align: center; position: relative; top: 3%; color: rgb(255, 255, 255); font-size: 27px !important;">
+          MacuScan
+        </ion-title>
+      </div>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-img src="assets/macuscan_logo.png"></ion-img>
+
+  <ion-card style="background-color: #254579;" class="info-text">
+    <ion-card-content>
+      <ion-text style="color:white; ">
+        <p style="font-size: 20px !important;">MacuScan is an app for the diagnosis of Age-Related Macular Degeneration. To get started, dilate the patient's eyes by 4 millimeters and attach the lens to the phone.</p>
+      </ion-text>
+    </ion-card-content>
+  </ion-card>
+  
+  <ion-card style="background-color: #254579;" class="info-text2">
+    <ion-card-content>
+      <ion-text style="color:white;" >
+        <p style="font-size: 20px !important;">When you are ready to start the diagnosis, tap the camera icon</p>
+      </ion-text>
+    </ion-card-content>
+  </ion-card>
+  
+  <div id="container">
+    <ion-fab vertical="bottom" horizontal="center" slot="fixed">
+      <ion-fab-button (click)="addPhotoToGallery()" color="secondary">
+        <ion-icon name="camera"></ion-icon>
+      </ion-fab-button>
+    </ion-fab>
+  </div>
+</ion-content>

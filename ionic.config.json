@@ -1,0 +1,7 @@
+{
+  "name": "MacuScan",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
